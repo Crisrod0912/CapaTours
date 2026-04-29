@@ -9,7 +9,9 @@ namespace CapaTours.API.Data
 
         public DapperContext(IConfiguration configuration)
         {
-            _connectionString = configuration.GetConnectionString("BDConnection");
+            _connectionString = configuration.GetConnectionString("BDConnection")
+                ?? configuration.GetConnectionString("Default")
+                ?? throw new InvalidOperationException("Connection string 'BDConnection' not found in configuration (appsettings.json)."); 
         }
 
         public IDbConnection CreateConnection()
