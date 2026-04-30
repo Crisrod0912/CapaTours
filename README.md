@@ -42,7 +42,7 @@ The tourism industry requires efficient and reliable systems to manage operation
 - 🧱 **Frameworks**: ASP.NET Core, Bootstrap
 - 🗄️ **Database**: Microsoft SQL Server
 - 🌐 **Server**: IIS Express
-- 🔂 Version Control: Git
+- 🔂 **Version Control**: Git
 
 ## ⚙️ Installation
 
