@@ -81,3 +81,8 @@ The tourism industry requires efficient and reliable systems to manage operation
     - Run both the MVC and Web API projects using "HTTPS".
 
 5. 🌐 Access the application in your browser.
+
+> [!NOTE]
+> **Project Owner / Developer** 👨🏻‍💻  
+>- Cristopher Rodríguez Fernández 
+***
